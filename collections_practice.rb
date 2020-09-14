@@ -38,8 +38,9 @@ def swap_elements(int)
   end 
   
   def sum_array(array)
-    array.each do |a,b|
-      a + b
+    sum = 0
+    array.each do |i|
+      sum += i
 end
 sum
 end 
