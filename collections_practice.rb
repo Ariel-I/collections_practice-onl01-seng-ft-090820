@@ -10,16 +10,16 @@ def sort_array_desc(number=[])
   end 
 end 
 
-def sort_array_char_count(num=[])
+def sort_array_char_count(num)
  num.sort do |a,b|
    a.length <=> b.length
  end 
 end
 
-def swap_elements(int=[])
+def swap_elements(int)
   int[1] , int[2]=int[2], int[1] 
   int
   end 
   
-  def kesha_maker(money=[])
+  def kesha_maker(array)
     
