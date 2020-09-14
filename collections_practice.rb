@@ -1,4 +1,4 @@
-def sort_array_asc(interger=[])
+def sort_array_asc(integer=[])
   integer.sort do |a,b|
     a <=> b 
   end 
