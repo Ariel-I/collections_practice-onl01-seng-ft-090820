@@ -40,5 +40,6 @@ def swap_elements(int)
   def sum_array(array)
     array.each do |a,b|
       a + b
-end 
+end
+sum
 end 
