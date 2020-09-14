@@ -5,7 +5,7 @@ def sort_array_asc(integer=[])
 end 
 
 def sort_array_desc(number=[])
-  number.sort do |b,a|
-    b<=>a 
+  number.sort.reverse do |a,b|
+    a<=>b 
   end 
 end 
