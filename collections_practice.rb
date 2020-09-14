@@ -12,6 +12,6 @@ end
 
 def sort_array_char_count(num=[])
   num.sort.length do |a,b|
-    a <=> break
+    a <=> b
   end 
 end
