@@ -1,10 +1,10 @@
-def sort_array_asc(integer=[])
+def sort_array_asc(integer)
   integer.sort do |a,b|
     a <=> b 
   end 
 end 
 
-def sort_array_desc(number=[])
+def sort_array_desc(number)
   number.sort.reverse do |a,b|
     a<=>b 
   end 
@@ -22,4 +22,6 @@ def swap_elements(int)
   end 
   
   def kesha_maker(array)
+    array.each do |i|
+      
     
