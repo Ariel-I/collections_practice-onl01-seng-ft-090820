@@ -36,4 +36,9 @@ def swap_elements(int)
       string.start_with?("a")
     end
   end 
-    
+  
+  def sum_array(array)
+    array.each do |a,b|
+      a + b
+end 
+end 
