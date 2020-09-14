@@ -32,7 +32,8 @@ def swap_elements(int)
   end 
   
   def find_a(array)
-    array.select do |string|
-      
+    array.each do |string|
+      string.start_with?("a")
+    end
   end 
     
