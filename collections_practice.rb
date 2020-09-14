@@ -1,14 +1,17 @@
-def sort_array_asc
-  array.sort do |a,b|
+def sort_array_asc(interger=[])
+  integer.sort do |a,b|
     a <=> b 
   end 
 end 
 
-def sort_array_desc
-  array.sort.reverse do |a,b|
+def sort_array_desc(number=[])
+  number.sort.reverse do |a,b|
     a<=>b 
   end 
 end 
 
-def sort_array_char_count
+def sort_array_char_count(num=[])
+  num.sort.length do |a,b|
+    a <=> break
+  end 
 end
