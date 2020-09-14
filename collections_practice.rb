@@ -12,5 +12,4 @@ end
 
 def sort_array_char_count(num=[])
   num = num.sort_by {[n]n.length}
-  end 
 end
