@@ -11,6 +11,6 @@ def sort_array_desc(number=[])
 end 
 
 def sort_array_char_count(num=[])
-  num = 
+  num = num.sort_by 
   end 
 end
