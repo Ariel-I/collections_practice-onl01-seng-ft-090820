@@ -1,5 +1,11 @@
-def sort_array_asc(integer=[5,3,9,1,4,7,8])
+def sort_array_asc(integer=[])
   integer.sort do |a,b|
     a <=> b 
+  end 
+end 
+
+def sort_array_desc(number=[])
+  number.sort do |b,a|
+    b<=>a 
   end 
 end 
