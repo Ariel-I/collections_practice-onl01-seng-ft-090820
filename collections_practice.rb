@@ -32,6 +32,6 @@ def swap_elements(int)
   end 
   
   def find_a(array)
-    array.start_with?(a)
+    array.select do 
   end 
     
