@@ -46,7 +46,8 @@ sum
 end 
 
 def add_s(array)
-  array.each_with_index.collect {|element, index|}
+  array.each_with_index.collect {|word, index|}
+  if word != 1 
 end 
   
   
